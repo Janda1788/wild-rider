@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "express": "^4.17.1",
     "strapi": "^3.6.6",
     "strapi-admin": "^3.6.6",
     "strapi-connector-mongoose": "3.6.5",
@@ -23,9 +24,7 @@
     "strapi-provider-upload-cloudinary": "^3.6.5",
     "strapi-utils": "3.6.5"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "5881e6e0-f658-4b8d-a3ef-7e0f6f4bd6ae",
     "template": "https://github.com/strapi/strapi-template-gatsby-catalog"
@@ -34,5 +33,15 @@
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janda1788/wild-rider.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Janda1788/wild-rider/issues"
+  },
+  "homepage": "https://github.com/Janda1788/wild-rider#readme"
 }

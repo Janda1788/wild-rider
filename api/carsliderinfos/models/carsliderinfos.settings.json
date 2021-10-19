@@ -58,6 +58,10 @@
     "carsslider": {
       "via": "carsliderinfos",
       "model": "carssliders"
+    },
+    "homepage": {
+      "via": "carsliderinfos",
+      "model": "homepage"
     }
   }
 }

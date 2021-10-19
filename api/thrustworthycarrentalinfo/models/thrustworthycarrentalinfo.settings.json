@@ -58,6 +58,10 @@
     "thustworthycarrental": {
       "via": "thrustworthycarrentalinfos",
       "model": "thustworthycarrental"
+    },
+    "homepage": {
+      "via": "thrustworthycarrentalinfos",
+      "model": "homepage"
     }
   }
 }

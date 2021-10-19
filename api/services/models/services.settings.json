@@ -50,6 +50,10 @@
     "ourservice": {
       "via": "services",
       "model": "ourservices"
+    },
+    "homepage": {
+      "via": "services",
+      "model": "homepage"
     }
   }
 }

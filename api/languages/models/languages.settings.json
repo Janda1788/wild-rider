@@ -34,6 +34,10 @@
     "header": {
       "via": "languages",
       "model": "headers"
+    },
+    "homepage": {
+      "via": "languages",
+      "model": "homepage"
     }
   }
 }

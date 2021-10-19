@@ -50,6 +50,10 @@
     "carsslider": {
       "via": "tripadvisors",
       "model": "carssliders"
+    },
+    "homepage": {
+      "via": "tripadvisors",
+      "model": "homepage"
     }
   }
 }

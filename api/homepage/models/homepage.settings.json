@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "headers": {
+      "collection": "headers",
+      "via": "homepage"
+    },
+    "carssliders": {
+      "collection": "carssliders",
+      "via": "homepage"
+    },
+    "ourservices": {
+      "collection": "ourservices",
+      "via": "homepage"
+    },
+    "thustworthycarrentals": {
+      "collection": "thustworthycarrental",
+      "via": "homepage"
+    },
+    "clientsliders": {
+      "collection": "clientsliders",
+      "via": "homepage"
+    },
+    "faqs": {
+      "collection": "faq",
+      "via": "homepage"
+    },
+    "otexperts": {
+      "collection": "otexperts",
+      "via": "homepage"
+    },
+    "footers": {
+      "collection": "footers",
+      "via": "homepage"
+    },
+    "buttons": {
+      "collection": "buttons",
+      "via": "homepage"
+    }
+  }
+}

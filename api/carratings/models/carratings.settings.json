@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carratings",
+  "info": {
+    "name": "Carratings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rate": {
+      "type": "integer"
+    },
+    "img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "comment": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

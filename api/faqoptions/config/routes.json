@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/faqoptions",
+      "handler": "faqoptions.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faqoptions/count",
+      "handler": "faqoptions.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faqoptions/:id",
+      "handler": "faqoptions.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/faqoptions",
+      "handler": "faqoptions.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/faqoptions/:id",
+      "handler": "faqoptions.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/faqoptions/:id",
+      "handler": "faqoptions.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

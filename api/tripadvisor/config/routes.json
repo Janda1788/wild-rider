@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tripadvisors",
+      "handler": "tripadvisor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tripadvisors/count",
+      "handler": "tripadvisor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tripadvisors/:id",
+      "handler": "tripadvisor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tripadvisors",
+      "handler": "tripadvisor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tripadvisors/:id",
+      "handler": "tripadvisor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tripadvisors/:id",
+      "handler": "tripadvisor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carssliders",
+  "info": {
+    "name": "Carssliders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tripadvisors": {
+      "collection": "tripadvisor",
+      "via": "carsslider"
+    },
+    "carsliderinfos": {
+      "collection": "carsliderinfos",
+      "via": "carsslider"
+    },
+    "homepage": {
+      "via": "carssliders",
+      "model": "homepage"
+    }
+  }
+}

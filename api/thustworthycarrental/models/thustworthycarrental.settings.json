@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thustworthycarrentals",
+  "info": {
+    "name": "Thustworthycarrental"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "thrustworthycarrentalinfos": {
+      "collection": "thrustworthycarrentalinfo",
+      "via": "thustworthycarrental"
+    },
+    "homepage": {
+      "via": "thustworthycarrentals",
+      "model": "homepage"
+    }
+  }
+}

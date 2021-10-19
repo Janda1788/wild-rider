@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thrustworthycarrentalinfos",
+      "handler": "thrustworthycarrentalinfo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thrustworthycarrentalinfos/count",
+      "handler": "thrustworthycarrentalinfo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thrustworthycarrentalinfos/:id",
+      "handler": "thrustworthycarrentalinfo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thrustworthycarrentalinfos",
+      "handler": "thrustworthycarrentalinfo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thrustworthycarrentalinfos/:id",
+      "handler": "thrustworthycarrentalinfo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thrustworthycarrentalinfos/:id",
+      "handler": "thrustworthycarrentalinfo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

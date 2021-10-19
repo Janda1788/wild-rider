@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thustworthycarrentals",
+      "handler": "thustworthycarrental.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thustworthycarrentals/count",
+      "handler": "thustworthycarrental.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thustworthycarrentals/:id",
+      "handler": "thustworthycarrental.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thustworthycarrentals",
+      "handler": "thustworthycarrental.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thustworthycarrentals/:id",
+      "handler": "thustworthycarrental.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thustworthycarrentals/:id",
+      "handler": "thustworthycarrental.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientopinions",
+  "info": {
+    "name": "Clientopinions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profileimagepath": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "comment": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "integer"
+    },
+    "clientslider": {
+      "via": "clientopinions",
+      "model": "clientsliders"
+    }
+  }
+}

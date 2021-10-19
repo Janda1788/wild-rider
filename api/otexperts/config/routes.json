@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/otexperts",
+      "handler": "otexperts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/otexperts/count",
+      "handler": "otexperts.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/otexperts/:id",
+      "handler": "otexperts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/otexperts",
+      "handler": "otexperts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/otexperts/:id",
+      "handler": "otexperts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/otexperts/:id",
+      "handler": "otexperts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

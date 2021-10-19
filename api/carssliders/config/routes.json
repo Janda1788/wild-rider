@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/carssliders",
+      "handler": "carssliders.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/carssliders/count",
+      "handler": "carssliders.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/carssliders/:id",
+      "handler": "carssliders.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/carssliders",
+      "handler": "carssliders.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/carssliders/:id",
+      "handler": "carssliders.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/carssliders/:id",
+      "handler": "carssliders.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

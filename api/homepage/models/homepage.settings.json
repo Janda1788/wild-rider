@@ -16,8 +16,8 @@
   },
   "attributes": {
     "headers": {
-      "collection": "headers",
-      "via": "homepage"
+      "via": "homepage",
+      "collection": "headers"
     },
     "carssliders": {
       "collection": "carssliders",

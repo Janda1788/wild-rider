@@ -30,6 +30,10 @@
         }
       },
       "type": "string"
+    },
+    "header": {
+      "via": "languages",
+      "model": "headers"
     }
   }
 }

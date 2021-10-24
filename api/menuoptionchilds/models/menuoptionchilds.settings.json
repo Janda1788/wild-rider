@@ -35,10 +35,6 @@
     "menuoption": {
       "via": "menuoptionchilds",
       "model": "menuoptions"
-    },
-    "homepage": {
-      "via": "menuoptionchilds",
-      "model": "homepage"
     }
   }
 }

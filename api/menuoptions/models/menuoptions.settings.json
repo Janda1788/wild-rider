@@ -46,10 +46,6 @@
     "header": {
       "via": "menuoptions",
       "model": "headers"
-    },
-    "homepage": {
-      "via": "menuoptions",
-      "model": "homepage"
     }
   }
 }

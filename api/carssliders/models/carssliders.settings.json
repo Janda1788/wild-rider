@@ -16,8 +16,8 @@
       "via": "carsslider"
     },
     "carsliderinfos": {
-      "collection": "carsliderinfos",
-      "via": "carsslider"
+      "via": "carsslider",
+      "collection": "carsliderinfos"
     },
     "homepage": {
       "via": "carssliders",

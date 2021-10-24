@@ -24,10 +24,6 @@
       "collection": "carssliders",
       "via": "homepage"
     },
-    "ourservices": {
-      "collection": "ourservices",
-      "via": "homepage"
-    },
     "thustworthycarrentals": {
       "collection": "thustworthycarrental",
       "via": "homepage"
@@ -52,44 +48,8 @@
       "collection": "buttons",
       "via": "homepage"
     },
-    "menuoptions": {
-      "collection": "menuoptions",
-      "via": "homepage"
-    },
-    "menuoptionchilds": {
-      "collection": "menuoptionchilds",
-      "via": "homepage"
-    },
-    "languages": {
-      "collection": "languages",
-      "via": "homepage"
-    },
-    "carsliderinfos": {
-      "collection": "carsliderinfos",
-      "via": "homepage"
-    },
-    "carratings": {
-      "collection": "carratings",
-      "via": "homepage"
-    },
-    "tripadvisors": {
-      "collection": "tripadvisor",
-      "via": "homepage"
-    },
-    "services": {
-      "collection": "services",
-      "via": "homepage"
-    },
-    "thrustworthycarrentalinfos": {
-      "collection": "thrustworthycarrentalinfo",
-      "via": "homepage"
-    },
-    "faqoptions": {
-      "collection": "faqoptions",
-      "via": "homepage"
-    },
-    "otexpertsinfos": {
-      "collection": "otexpertsinfo",
+    "ourservices": {
+      "collection": "ourservices",
       "via": "homepage"
     }
   }

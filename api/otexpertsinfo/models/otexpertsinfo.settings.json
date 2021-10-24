@@ -42,10 +42,6 @@
     "otexpert": {
       "via": "otexpertsinfos",
       "model": "otexperts"
-    },
-    "homepage": {
-      "via": "otexpertsinfos",
-      "model": "homepage"
     }
   }
 }

@@ -34,10 +34,6 @@
     "faq": {
       "via": "faqoptions",
       "model": "faq"
-    },
-    "homepage": {
-      "via": "faqoptions",
-      "model": "homepage"
     }
   }
 }

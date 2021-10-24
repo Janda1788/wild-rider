@@ -31,10 +31,6 @@
     },
     "name": {
       "type": "string"
-    },
-    "homepage": {
-      "via": "carratings",
-      "model": "homepage"
     }
   }
 }

@@ -21,8 +21,8 @@
       "collection": "headers"
     },
     "carssliders": {
-      "collection": "carssliders",
-      "via": "homepage"
+      "via": "homepage",
+      "collection": "carssliders"
     },
     "thustworthycarrentals": {
       "collection": "thustworthycarrental",

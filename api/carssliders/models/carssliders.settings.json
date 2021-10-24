@@ -2,14 +2,19 @@
   "kind": "collectionType",
   "collectionName": "carssliders",
   "info": {
-    "name": "Carssliders"
+    "name": "Carssliders",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "tripadvisors": {
       "collection": "tripadvisor",

@@ -17,16 +17,16 @@
   },
   "attributes": {
     "tripadvisors": {
-      "collection": "tripadvisor",
-      "via": "carsslider"
+      "via": "carsslider",
+      "collection": "tripadvisor"
     },
     "carsliderinfos": {
       "via": "carsslider",
       "collection": "carsliderinfos"
     },
-    "homepage": {
-      "via": "carssliders",
-      "model": "homepage"
+    "homepages": {
+      "collection": "homepage",
+      "via": "carsslider"
     }
   }
 }

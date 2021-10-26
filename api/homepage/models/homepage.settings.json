@@ -20,10 +20,6 @@
       "via": "homepage",
       "collection": "headers"
     },
-    "carssliders": {
-      "via": "homepage",
-      "collection": "carssliders"
-    },
     "thustworthycarrentals": {
       "collection": "thustworthycarrental",
       "via": "homepage"
@@ -51,6 +47,10 @@
     "ourservices": {
       "collection": "ourservices",
       "via": "homepage"
+    },
+    "carsslider": {
+      "via": "homepages",
+      "model": "carssliders"
     }
   }
 }

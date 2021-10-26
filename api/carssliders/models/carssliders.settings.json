@@ -24,9 +24,9 @@
       "via": "carsslider",
       "collection": "carsliderinfos"
     },
-    "homepages": {
-      "collection": "homepage",
-      "via": "carsslider"
+    "homepage": {
+      "via": "carssliders",
+      "model": "homepage"
     }
   }
 }

@@ -48,9 +48,9 @@
       "collection": "ourservices",
       "via": "homepage"
     },
-    "carsslider": {
-      "via": "homepages",
-      "model": "carssliders"
+    "carssliders": {
+      "collection": "carssliders",
+      "via": "homepage"
     }
   }
 }

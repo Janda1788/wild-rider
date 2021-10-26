@@ -24,8 +24,8 @@
       "type": "string"
     },
     "clientopinions": {
-      "collection": "clientopinions",
-      "via": "clientslider"
+      "via": "clientslider",
+      "collection": "clientopinions"
     },
     "homepage": {
       "via": "clientsliders",

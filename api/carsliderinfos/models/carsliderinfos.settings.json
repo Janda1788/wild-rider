@@ -60,13 +60,9 @@
       "via": "carsliderinfos",
       "model": "carssliders"
     },
-    "rating": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "integer"
+    "carratings": {
+      "via": "carsliderinfo",
+      "collection": "carratings"
     }
   }
 }

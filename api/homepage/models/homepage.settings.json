@@ -29,16 +29,16 @@
       "via": "homepage"
     },
     "faqs": {
-      "collection": "faq",
-      "via": "homepage"
+      "via": "homepage",
+      "collection": "faq"
     },
     "otexperts": {
       "collection": "otexperts",
       "via": "homepage"
     },
     "footers": {
-      "collection": "footers",
-      "via": "homepage"
+      "via": "homepage",
+      "collection": "footers"
     },
     "buttons": {
       "collection": "buttons",

@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "logopath": {
+    "tripadvisorlogopath": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -32,7 +32,7 @@
         }
       }
     },
-    "desc": {
+    "content": {
       "pluginOptions": {
         "i18n": {
           "localized": true

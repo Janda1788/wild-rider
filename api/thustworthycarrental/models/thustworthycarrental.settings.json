@@ -24,8 +24,8 @@
       "type": "string"
     },
     "thrustworthycarrentalinfos": {
-      "collection": "thrustworthycarrentalinfo",
-      "via": "thustworthycarrental"
+      "via": "thustworthycarrental",
+      "collection": "thrustworthycarrentalinfo"
     },
     "homepage": {
       "via": "thustworthycarrentals",

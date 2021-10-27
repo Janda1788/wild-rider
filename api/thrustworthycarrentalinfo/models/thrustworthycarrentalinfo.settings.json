@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "thrustworthycarrentalinfos",
   "info": {
-    "name": "Thrustworthycarrentalinfo"
+    "name": "Thrustworthycarrentalinfo",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,7 +16,7 @@
     }
   },
   "attributes": {
-    "img": {
+    "imagepath": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -39,7 +40,7 @@
       },
       "type": "string"
     },
-    "shortdesc": {
+    "shortdescription": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -47,7 +48,7 @@
       },
       "type": "richtext"
     },
-    "longdesc": {
+    "longdescription": {
       "pluginOptions": {
         "i18n": {
           "localized": true

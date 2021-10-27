@@ -24,7 +24,7 @@
         }
       }
     },
-    "img": {
+    "profileimagepath": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [

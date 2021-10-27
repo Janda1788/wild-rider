@@ -24,8 +24,8 @@
       "type": "string"
     },
     "otexpertsinfos": {
-      "collection": "otexpertsinfo",
-      "via": "otexpert"
+      "via": "otexpert",
+      "collection": "otexpertsinfo"
     },
     "teamimagepath": {
       "collection": "file",

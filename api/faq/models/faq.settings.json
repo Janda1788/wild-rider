@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "faqs",
   "info": {
-    "name": "Faq"
+    "name": "Faq",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -23,7 +24,7 @@
       },
       "type": "string"
     },
-    "desc": {
+    "description": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -32,8 +33,8 @@
       "type": "richtext"
     },
     "faqoptions": {
-      "collection": "faqoptions",
-      "via": "faq"
+      "via": "faq",
+      "collection": "faqoptions"
     },
     "homepage": {
       "via": "faqs",

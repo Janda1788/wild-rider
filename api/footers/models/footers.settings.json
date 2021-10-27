@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "footers",
   "info": {
-    "name": "Footers"
+    "name": "Footers",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,7 +16,7 @@
     }
   },
   "attributes": {
-    "desc": {
+    "text": {
       "pluginOptions": {
         "i18n": {
           "localized": true

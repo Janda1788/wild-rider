@@ -17,8 +17,8 @@
   },
   "attributes": {
     "menuoptions": {
-      "collection": "menuoptions",
-      "via": "header"
+      "via": "header",
+      "collection": "menuoptions"
     },
     "logopath": {
       "collection": "file",

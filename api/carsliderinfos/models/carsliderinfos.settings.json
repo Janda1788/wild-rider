@@ -24,7 +24,7 @@
       },
       "type": "string"
     },
-    "desc": {
+    "description": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -32,7 +32,7 @@
       },
       "type": "richtext"
     },
-    "img": {
+    "imagepath": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [

@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "img": {
+    "imagepath": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -40,7 +40,7 @@
       },
       "type": "string"
     },
-    "desc": {
+    "description": {
       "pluginOptions": {
         "i18n": {
           "localized": true

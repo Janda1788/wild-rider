@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "otexpertsinfos",
   "info": {
-    "name": "Otexpertsinfo"
+    "name": "Otexpertsinfo",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,7 +16,7 @@
     }
   },
   "attributes": {
-    "img": {
+    "imagepath": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -31,7 +32,7 @@
         }
       }
     },
-    "desc": {
+    "description": {
       "pluginOptions": {
         "i18n": {
           "localized": true

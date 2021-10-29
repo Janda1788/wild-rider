@@ -24,22 +24,6 @@
       },
       "type": "string"
     },
-    "path": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "menuoptionchilds": {
       "collection": "menuoptionchilds",
       "via": "menuoption"

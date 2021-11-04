@@ -63,6 +63,22 @@
     "carratings": {
       "via": "carsliderinfo",
       "collection": "carratings"
+    },
+    "ismobile": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
+    },
+    "istablet": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
     }
   }
 }
